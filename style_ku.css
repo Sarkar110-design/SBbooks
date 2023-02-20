@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
+body, html, p{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 400;
+}
+a, h1, h2, h3, h4, h5, h6, span{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 700;
+}
+html{
+    direction: rtl !important;
+    text-align: right !important;
+    unicode-bidi: embed !important;
+
+}
+.hero-section .text-wrap{
+    left: unset;
+    right: 20%;
+}
+.books-section img {
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.books-section span.cat{
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+@media only screen and (max-width: 480px) {
+    .hero-section .text-wrap {
+        transform: translate(0, -50%);
+    }
+}
